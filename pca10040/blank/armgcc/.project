@@ -26,9 +26,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>app_mpu.c</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/app_mpu.c</locationURI>
+		</link>
+		<link>
 			<name>main.c</name>
 			<type>1</type>
 			<locationURI>PARENT-3-PROJECT_LOC/main.c</locationURI>
+		</link>
+		<link>
+			<name>nrf_drv_mpu_twi.c</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/nrf_drv_mpu_twi.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

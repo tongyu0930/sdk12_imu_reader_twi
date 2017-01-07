@@ -29,6 +29,9 @@ SRC_FILES += \
   $(SDK_ROOT)/components/libraries/bsp/bsp.c \
   $(SDK_ROOT)/components/libraries/bsp/bsp_nfc.c \
   $(PROJ_DIR)/main.c \
+  $(PROJ_DIR)/app_mpu.c \
+  $(PROJ_DIR)/nrf_drv_mpu_twi.c \
+  $(SDK_ROOT)/components/drivers_nrf/twi_master/nrf_drv_twi.c \
   $(SDK_ROOT)/external/segger_rtt/RTT_Syscalls_GCC.c \
   $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT.c \
   $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT_printf.c \
@@ -60,6 +63,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/components/toolchain \
   $(SDK_ROOT)/components/drivers_nrf/common \
   $(SDK_ROOT)/components/libraries/log/src \
+  $(SDK_ROOT)/components/drivers_nrf/twi_master \
 
 # Libraries common to all targets
 LIB_FILES += \
